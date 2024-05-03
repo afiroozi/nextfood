@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 
 export default function MealsDetailPage({ params }) {
@@ -6,7 +5,7 @@ export default function MealsDetailPage({ params }) {
         <>
             <h1>MealsDetailPage</h1>
             <p>
-                {params.mealsdetail}
+                {params.mealSlug}
 
             </p>
             <p>
